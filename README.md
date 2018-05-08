@@ -10,9 +10,18 @@ The supervised SNN training algorithm of NormAD is described in this paper:
 N. Anwani and B. Rajendran, "NormAD - Normalized Approximate Descent based supervised learning rule for spiking neurons," 2015 
 International Joint Conference on Neural Networks (IJCNN), Killarney, 2015, pp. 1-8.
 
-The CUDA implementation of the three layered SNN using the NormAD algorithm is described in this arxiv paper:
+The CUDA implementation of the three layered SNN using the NormAD algorithm is described in this paper. Please cite the following if you are using our codes in your work.
+
+S. R. Kulkarni, J. M. Alexiades and B. Rajendran, "Learning and real-time classification of hand-written digits with spiking neural networks," 2017 24th IEEE International Conference on Electronics, Circuits and Systems (ICECS), Batumi, 2017, pp. 128-131.
+doi: 10.1109/ICECS.2017.8292015
+URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8292015&isnumber=8291994
+
+Arxiv link at:
 S. R. Kulkarni, J. Alexiades and B. Rajendran, "Learning and Real-time Classification of Hand-written Digits With Spiking Neural Networks",
 arXiv preprint arXiv:1711.03637, 2017.
+
+Detailed explanation of the different optimization studies can be found here:
+Kulkarni, S. R., & Rajendran, B. (2018). Spiking neural networks for handwritten digit recognition—Supervised learning and network optimization. Neural Networks.
 
 ### What is this repository for? ###
 
@@ -60,6 +69,7 @@ https://pjreddie.com/projects/mnist-in-csv/
 
 which is the same files provided in the original MNIST dataset (found at http://yann.lecun.com/exdb/mnist/)
 
+The images present in the above files are vectorized per row. Hence, there are 10,000 rows each having 1st element as the the label of the image followed by 784 pixels.
 
 * Codes - compilation
 To compile the CUDA code:
