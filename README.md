@@ -21,7 +21,12 @@ S. R. Kulkarni, J. Alexiades and B. Rajendran, "Learning and Real-time Classific
 arXiv preprint arXiv:1711.03637, 2017.
 
 Detailed explanation of the different optimization studies can be found here:
-Kulkarni, S. R., & Rajendran, B. (2018). Spiking neural networks for handwritten digit recognition—Supervised learning and network optimization. Neural Networks.
+Kulkarni, S. R., & Rajendran, B. (2018). Spiking neural networks for handwritten digit recognitionâ€”Supervised learning and network optimization. Neural Networks.
+
+A live interactive demo of this work was also implemented. We made use of OpenCV to preprocess the captured image and display the spike maps for visualization. The description is available here:
+S. R. Kulkarni, J. M. Alexiades and B. Rajendran, "Live Demonstration: Image Classification Using Bio-inspired Spiking Neural Networks," 2018 IEEE International Symposium on Circuits and Systems (ISCAS), Florence, Italy, 2018, pp. 1-1.
+doi: 10.1109/ISCAS.2018.8351810
+URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8351810&isnumber=8350884
 
 ### What is this repository for? ###
 
