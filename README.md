@@ -84,23 +84,24 @@ nvcc snn_test.cu -o runtest
 
 Similarly the code to train the network can be compiled and run.
 
-Additionally depeding on the GPU architecture you are using you can give the option of 
+Additionally depeding on the GPU architecture you are using you can give the option of -arch=sm_37, or any different number based on the compute capability of your GPU.
 
 * Running the simulations:
 Here, runtest is the executable and can be runs as:
 ./runtest <starting_img_index>
 
-Currently, for the test code, we need to change the weight file at the end of every epoch
 <starting_img_index> is a number between 0 and 10000, which indicates the starting index from the MNIST 
 dataset.
+Currently, for the test code, we need to change the weight file at the end of every epoch
+
 
 The traininig code prints out the index of the image every epoch, just to monitor the progress.
 The test code prints out the result of classification based on the count or the correlation metric
-at every image presentation
+at every image presentation. The ouput can be dumped to a log file: ./runtest <starting_img_index> > output.log &
 
 * Configuration
 In the beginning of each of the CUDA files are a set of #defines, where one can change the duration of simulation per image, 
-the sclaing factor, learning rate, etc.
+the scaling factor, learning rate, etc.
 
 ### Who do I talk to? ###
 
