@@ -744,7 +744,7 @@ int main(int argc, char *argv[])
 	exit(EXIT_FAILURE);
     }
 
-    FWI = fopen("wts_gpu16.txt","r");        //load the trained weights for the particular epoch
+    FWI = fopen("wts_trained_Final.txt","r");        //load the trained weights for the particular epoch
     if(FWI == NULL)
     {
 	perror("Error while opening file wts_trained.csv\n");
@@ -757,10 +757,10 @@ int main(int argc, char *argv[])
     	exit(EXIT_FAILURE);
     }
 
-    F_lif_spks = fopen("pixel_spks.csv","r");
+    F_lif_spks = fopen("pixels_spks.csv","r");
     if(F_lif_spks == NULL)
     {
-	perror("Error while opening file pixel_spks.csv\n");
+	perror("Error while opening file pixels_spks.csv\n");
 	exit(EXIT_FAILURE);
     }
  
