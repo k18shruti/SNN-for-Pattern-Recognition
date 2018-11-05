@@ -667,10 +667,10 @@ int main(int argc, char *argv[])
     cudaStreamCreate(&stream14);
     cudaStreamCreate(&stream15);
 
-    F_lif_spks = fopen("pixel_spks.csv","r");
+    F_lif_spks = fopen("pixels_spks.csv","r");
     if(F_lif_spks == NULL)
     {
-	perror("Error while opening file pixel_spks.csv\n");
+	perror("Error while opening file pixels_spks.csv\n");
 	exit(EXIT_FAILURE);
     }
 
