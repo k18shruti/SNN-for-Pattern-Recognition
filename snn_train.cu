@@ -674,7 +674,7 @@ int main(int argc, char *argv[])
 	exit(EXIT_FAILURE);
     }
 
-    F_train = fopen("mnist_trn.csv","r");
+    F_train = fopen("mnist_train.csv","r");
     //F_test = fopen("mnist_test.csv","r");
     if(F_train == NULL)
     {
